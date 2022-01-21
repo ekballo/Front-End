@@ -1,10 +1,14 @@
 <template>
-    <h1>Olá Mundo!</h1>
+    <PrimeiroComponente />
 </template>
 
 
 <script>
+import PrimeiroComponente from'./components/PrimeiroComponente.vue'
   export default{
-    nome: 'app'
+    nome: 'app',
+    components: {
+      PrimeiroComponente
+    }
   }
 </script>
